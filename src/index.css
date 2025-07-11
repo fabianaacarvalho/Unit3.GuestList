@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+.guest-details h2 {
+  margin-bottom: 1rem;
+}
+
+.guest-details p {
+  margin-bottom: 1rem;
+}
+
+.guest-details button {
+  padding: 0.5rem;
+}
+
+.guest-table th {
+  padding-right: 5rem;
+}
+
+.guest-table tr:hover {
+  background-color: goldenrod;
+}
